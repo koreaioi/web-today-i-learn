@@ -4,10 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-    <!-- TODO: Open Graph 메타 태그를 설정하세요 -->
-    <!-- <meta property="og:title" content="페이지 제목" /> -->
-    <!-- <meta property="og:description" content="페이지 설명" /> -->
-    <!-- <meta property="og:image" content="./images/thumbnail.jpg" /> -->
+    <meta property="og:title" content="송송 Page" />
+    <meta property="og:description" content="송송을 알아봐요" />
+    <meta property="og:image" content="./images/profile.jpg" />
 
     <title>Today I Learn</title>
     <link rel="stylesheet" href="./css/main.css" />
@@ -29,12 +28,11 @@
     <section class="hero" id="about">
       <div class="profile-card">
         <div class="profile-image">
-          <!-- TODO: 프로필 이미지를 넣어주세요 -->
-          <!-- <img src="./images/profile.jpg" alt="프로필 사진" /> -->
+          <img src="./images/profile.jpg" alt="프로필 사진" />
         </div>
         <div class="profile-info">
-          <h1>닉네임</h1>
-          <p class="tagline">한 줄 소개를 작성해주세요.</p>
+          <h1>송송</h1>
+          <p class="tagline">송송입니다!</p>
         </div>
       </div>
     </section>
@@ -43,30 +41,30 @@
       <!-- 자기소개 -->
       <section class="content-section">
         <h2>자기소개</h2>
-        <p>자기소개를 작성해주세요.</p>
-        <!-- TODO: 소개 글 안에 블로그, GitHub 등 관련 링크를 <a> 태그로 연결하세요 -->
+        <p>수면을 좋아하는 송송입니다. 낮잠크루 구합니다.</p>
+        
+        <a href="https://github.com/koreaioi" class="github-link-v3" id="github-shy-link"></a>
       </section>
 
       <!-- 기본 정보 -->
       <section class="content-section" id="info">
         <h2>기본 정보</h2>
-        <!-- TODO: 자신의 기본 정보를 표(<table>)로 정리하세요 -->
         <table class="info-table">
           <tr>
             <th>이름</th>
-            <td></td>
+            <td>송우석</td>
           </tr>
           <tr>
             <th>MBTI</th>
-            <td></td>
+            <td>ISTP</td>
           </tr>
           <tr>
             <th>취미</th>
-            <td></td>
+            <td>수면, 스노우보드</td>
           </tr>
           <tr>
             <th>좋아하는 음식</th>
-            <td></td>
+            <td>피자</td>
           </tr>
         </table>
       </section>
@@ -74,14 +72,19 @@
       <!-- 나만의 갤러리 -->
       <section class="content-section" id="gallery">
         <h2>나만의 갤러리</h2>
-        <p class="section-desc">갤러리 부제를 작성해주세요. (예: 기억에 남는 여행지)</p>
+        <p class="section-desc">제주도, 강릉, 속초, 태안, 남원, 묵호, 스키장</p>
         <div class="gallery-grid">
-          <!-- TODO: 9장의 이미지를 배치하세요 -->
-          <!--
-          <img src="./images/gallery-1.jpg" alt="갤러리 이미지 1" />
-          <img src="./images/gallery-2.jpg" alt="갤러리 이미지 2" />
-          ...
-          -->
+          
+          <img src="./images/image01.jpg" alt="갤러리 이미지 1" />
+          <img src="./images/image02.jpg" alt="갤러리 이미지 2" />
+          <img src="./images/image03.jpg" alt="갤러리 이미지 3" />
+          <img src="./images/image04.jpg" alt="갤러리 이미지 4" />
+          <img src="./images/image05.jpg" alt="갤러리 이미지 5" />
+          <img src="./images/image06.jpg" alt="갤러리 이미지 6" />
+          <img src="./images/image07.jpg" alt="갤러리 이미지 7" />
+          <img src="./images/image08.jpg" alt="갤러리 이미지 8" />
+          <img src="./images/image09.jpg" alt="갤러리 이미지 9" />
+          
         </div>
       </section>
 
@@ -89,21 +92,43 @@
       <section class="content-section" id="works">
         <h2>나를 울린 인생 작품</h2>
         <div class="works-list">
-          <!-- TODO: 최소 2가지 작품을 소개하세요 -->
-          <!-- TODO: 작품 중 하나는 <video> 또는 <iframe>으로 영상을 삽입하세요 -->
           <article class="work-card">
             <div class="work-thumbnail">
-              <!-- 작품 이미지 -->
-            </div>
+              <iframe 
+                    width="100%" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/v-PjgYDrg70" 
+                    title="Toy Story Official Trailer" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+              </iframe>
+          </div>
             <div class="work-info">
-              <h3>작품 제목</h3>
-              <p>작품에 대한 설명을 작성해주세요.</p>
+              <h3>토이스토리</h3>
+              <p>살면서 처음 본 영화, 볼 때 마다 기분이 달라져요.</p>
+            </div>
+          </article>
+                    <article class="work-card">
+            <div class="work-thumbnail">
+              <iframe 
+                    width="100%" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/rvcN5uFf_VI" 
+                    title="Toy Story Official Trailer" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+              </iframe>
+          </div>
+            <div class="work-info">
+              <h3>7번방의 선물</h3>
+              <p>태어날 때도 웃으며 태어난 나, 처음으로 울어보았다.</p>
             </div>
           </article>
         </div>
       </section>
 
-      <!-- TIL (Today I Learned) -->
       <section class="content-section" id="til">
         <h2>TIL</h2>
         <p class="section-desc">오늘 새롭게 배운 것들을 기록합니다.</p>
