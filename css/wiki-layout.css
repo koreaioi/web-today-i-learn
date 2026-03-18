@@ -462,3 +462,46 @@ footer {
 .github-link-v3:hover::before {
   content: "아잇 부끄러워요!";
 }
+
+.study-section {
+  text-align: center;
+  overflow: visible; /* 버튼이 섹션 밖으로도 나갈 수 있게 */
+  display: flex;
+}
+
+.study-button-wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  min-height: 100px; /* 버튼이 도망갈 공간 확보 */
+}
+
+.btn-study {
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+#yes-btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+#yes-btn:hover {
+  transform: scale(1.1);
+  background-color: #3d6a4a;
+}
+
+/* 도망가는 NO 버튼 핵심 스타일 */
+.btn-no {
+  background-color: #eee;
+  color: #666;
+  position: relative; /* 처음엔 제자리에 */
+  z-index: 999;
+}
